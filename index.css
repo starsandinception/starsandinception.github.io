@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'fha';
+    src: url('resources/fonts/all/fhacondfrenchshadednc-webfont.woff2') format('woff2'),
+         url('resources/fonts/all/fhacondfrenchshadednc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('resources/fonts/all/robotowoff/robotoslab-regular-webfont.woff2') format('woff2'),
+         url('resources/fonts/all/robotowoff/robotoslab-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto-bold';
+    src: url('resources/fonts/all/robotowoff/bold/robotoslab-bold-webfont.woff2') format('woff2'),
+         url('resources/fonts/all/robotowoff/bold/robotoslab-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: whitesmoke;
+    text-align:center;
+}
+
+
+.parallax1 {
+    /* The image used */
+    background-image: url('Photos/alexanderplatz.jpg');
+    min-height: 100%;
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url('Photos/berlin2.jpg');
+    min-height: 100%;
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.descitalic
+{
+    
+}
+.description{
+    font-family: 'roboto', "Arial";
+    
+    font-size: 30px;
+    display:block;
+    text-align:center;
+}
+
+table{
+    width: 600px;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+}
+th,td
+{
+    padding: 7px 25px 10px 25px;
+}
+th{
+    font-family: 'roboto-bold', "Arial";
+    
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: center;
+}
+.even{
+    background-color: #efefef;
+    }
+tr.hover{
+    background-color: #c3e6e5;
+}
+td{
+    font-family: 'roboto', "Arial";
+    font-size: 20px;
+}
+table.center
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.tablebold
+{
+    font-family: 'roboto-bold', "Arial";
+    font-size: 35px;
+}
+footer{
+    margin: 0px;
+    padding: 10px;
+    border-style: none;
+    background-color: #d4d3d3;
+}
+a{
+    text-decoration: none;
+    color: #FF5733;
+}
+p{
+    font-family: 'roboto', "Arial";
+    display:block;
+    text-align:center;
+    
+}
+.products
+{
+    font-family: 'roboto-bold', "Arial";
+    font-size: 40px;
+    
+    
+    
+}
+.size {
+    font-size: 25px;
+    text-align:center;
+    
+}
