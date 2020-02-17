@@ -41,7 +41,6 @@ body{
     text-align:center;
 }
 
-
 .parallax1 {
     /* The image used */
     background-image: url("Photos/alexanderplatz.jpg");
@@ -75,6 +74,7 @@ body{
       background-attachment: scroll;
     }
   }
+
 .descitalic {
     
 }
