@@ -36,6 +36,14 @@
 
 }
 
+h1 {
+  font-family: 'roboto-bold', "Arial";
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 100%;
+text-align: center;
+}
+
 body {
     background-color: whitesmoke;
     text-align:center;
@@ -220,11 +228,6 @@ p {
       color: white;
   }
 
-  /* Add a black background color to the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color:white;
-  }
   
   /* Style the links inside the navigation bar */
   .topnav a {
