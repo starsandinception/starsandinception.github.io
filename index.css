@@ -36,9 +36,13 @@
 
 }
 
-body{
+body {
     background-color: whitesmoke;
     text-align:center;
+}
+
+body, html {
+  height: 100%;
 }
 
 .parallax1 {
@@ -68,12 +72,18 @@ body{
     background-size: cover;
 }
 
-/* paralax scrolling for all tablets and phones turned off. increase/decrease the pixels if needed */
+/* paralax scrolling for all tablets and phones turned off */
 @media only screen and (max-device-width: 1366px) {
-    .parallax {
+    .parallax1 {
       background-attachment: scroll;
     }
   }
+/* paralax scrolling for all tablets and phones turned off */
+@media only screen and (max-device-width: 1366px) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+}
 
 .descitalic {
     
