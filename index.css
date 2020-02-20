@@ -7,9 +7,11 @@
 
 }
 /*desktop version*/ 
-@media only screen and (min-width: 980px)
-{
-
+@media (min-width: 900px) {
+  .table {
+    display: flex; 
+    justify-content: space-between;
+  }
 }
 @font-face {
     font-family: 'fha';
@@ -37,7 +39,7 @@
 }
 
 h1 {
-  font-family: 'roboto-bold', "Arial";
+font-family: 'roboto-bold', "Arial";
 text-transform: uppercase;
 letter-spacing: 0.1em;
 font-size: 100%;
@@ -54,12 +56,10 @@ body, html {
 }
 
 .parallax1 {
-    /* The image used */
     background-image: url("Photos/alexanderplatz.jpg");
     min-height: 100%;
     /* Full height */
     height: 100%;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -67,12 +67,10 @@ body, html {
     background-size: cover;
 }
 .parallax2 {
-    /* The image used */
     background-image: url("Photos/berlin2.jpg");
     min-height: 100%;
     /* Full height */
     height: 100%;
-
     /* parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -93,57 +91,30 @@ body, html {
   }
 }
 
-.descitalic {
-    
-}
-.description{
+.intro {
     font-family: 'roboto', "Arial";
     font-size: 30px;
     display: block;
     text-align: center;
     color: #000;
+    padding-left: 35px; 
+    padding-right: 35px; 
 }
 
-table {
-    width: 100%;
-    background-position: center;
-    background-attachment: fixed;
-    min-height: 100%;
-    height: 100%;
-    padding: 10px 10px 10px 10px;
-
+.table {
+    padding: 10px 10px 10px 65px;
+    max-width: 1366px;
 }
-th,td
-{
-    padding: 7px 25px 10px 25px;
-}
-th{
-    font-family: 'roboto-bold', "Arial";
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 90%;
-    border-bottom: 2px solid #111111;
-    border-top: 1px solid #999;
-    text-align: center;
+#day-tour, #weekend-tour, #week-tour {
+  box-sizing: border-box; 
+  margin-bottom: 20px; 
+  padding: 20px; 
+  flex-basis: 30%;
 }
 .even{
     background-color: #efefef;
     }
-tr.hover{
-    background-color: #c3e6e5;
-}
-td{
-    font-family: 'roboto', "Arial";
-    font-size: 20px;
-}
-table.center {
-    margin-left: auto;
-    margin-right: auto;
-}
-.tablebold {
-    font-family: 'roboto-bold', "Arial";
-    font-size: 35px;
-}
+
 footer {
     margin: 0px;
     padding: 10px;
@@ -156,21 +127,18 @@ a {
 }
 p {
     font-family: 'roboto', "Arial";
-    display:block;
+    display: block;
     text-align:center;
     
 }
 .products {
     font-family: 'roboto-bold', "Arial";
     font-size: 40px;
-    
-    
-    
+  
 }
 .size {
     font-size: 25px;
     text-align:center;
-    
 }
 
 .icon-bar {
@@ -179,7 +147,7 @@ p {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
+}
 
 .icon-bar {
     display: block;
@@ -201,7 +169,7 @@ p {
 
 .icon-bar a:hover {
     background-color: #000;
-  }
+}
   
   .facebook {
     background: #3B5998;
@@ -227,7 +195,6 @@ p {
       background: #228B22;
       color: white;
   }
-
   
   /* Style the links inside the navigation bar */
   .topnav a {
