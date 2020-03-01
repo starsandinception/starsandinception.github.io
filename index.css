@@ -69,9 +69,7 @@ body, html {
 .parallax2 {
     background-image: url("Photos/berlin2.jpg");
     min-height: 100%;
-    /* Full height */
     height: 100%;
-    /* parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,7 +107,16 @@ body, html {
   box-sizing: border-box; 
   margin-bottom: 20px; 
   padding: 20px; 
-  flex-basis: 30%;
+  flex-basis: 30%; 
+}
+#day-tour:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+#weekend-tour:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+} 
+#week-tour:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
 }
 .even{
     background-color: #efefef;
