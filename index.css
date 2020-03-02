@@ -101,7 +101,6 @@ body, html {
 
 .table {
     padding: 10px 10px 10px 65px;
-    max-width: 1366px;
 }
 #day-tour, #weekend-tour, #week-tour {
   box-sizing: border-box; 
@@ -274,8 +273,8 @@ p {
   }
   
   .panel {
-    padding: 0 18px;
-    background-color: white;
+    padding: 0 10% 0 10%;
+    background-color: #eee;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
