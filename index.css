@@ -228,6 +228,20 @@ p {
     background-color: #F9DA28;
     color: #4A5F58;
   }
+  .topnav .search-container {
+    float: right;
+  }
+  .topnav .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px; 
+    background-color: #F9DA28; 
+    font-size: 17px; 
+    border: none; 
+    cursor: pointer; 
+    width: 100%;
+  }
   
   /* Style the search box inside the navigation bar */
   .topnav input[type=text] {
@@ -237,6 +251,7 @@ p {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+    width: 30%;
   }
   
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
@@ -286,6 +301,7 @@ p {
 
   .answer {
     text-align: center;   
+    padding: 0 10% 0 10%; 
   }
 
   * {box-sizing: border-box}
