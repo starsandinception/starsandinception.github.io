@@ -13,7 +13,6 @@
     justify-content: space-between;
   }
 }
-
 @font-face {
     font-family: 'fha';
     src: url('resources/fonts/all/fhacondfrenchshadednc-webfont.woff2') format('woff2'),
@@ -70,7 +69,9 @@ body, html {
 .parallax2 {
     background-image: url("Photos/berlin2.jpg");
     min-height: 100%;
+    /* Full height */
     height: 100%;
+    /* parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,21 +103,13 @@ body, html {
 
 .table {
     padding: 10px 10px 10px 65px;
+    max-width: 1366px;
 }
 #day-tour, #weekend-tour, #week-tour {
   box-sizing: border-box; 
   margin-bottom: 20px; 
   padding: 20px; 
-  flex-basis: 30%; 
-}
-#day-tour:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
-}
-#weekend-tour:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
-} 
-#week-tour:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  flex-basis: 30%;
 }
 .even{
     background-color: #efefef;
@@ -228,7 +221,7 @@ p {
   .topnav a.active {
     background-color: #F9DA28;
     color: #4A5F58;
-    }
+  }
   
   /* Style the search box inside the navigation bar */
   .topnav input[type=text] {
@@ -236,7 +229,7 @@ p {
     padding: 6px;
     border: none;
     margin-top: 8px;
-    margin-right: 8px;
+    margin-right: 16px;
     font-size: 17px;
   }
   
@@ -274,8 +267,8 @@ p {
   }
   
   .panel {
-    padding: 0 10% 0 10%;
-    background-color: #eee;
+    padding: 0 18px;
+    background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -285,77 +278,3 @@ p {
   .answer {
     text-align: center; 
   }
-
-  /* Bordered form */
-form {
-  border: 3px solid #f1f1f1;
-}
-
-/* Full-width inputs */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  color: white;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: auto;
-}
-
-/* Add a hover effect for buttons */
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/* Center the avatar image inside this container */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  color: white; 
-}
-
-/* Avatar image */
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-/* Add padding to containers */
-.container {
-  padding: 16px;
-}
-
-/* The "Forgot password" text */
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
-}
