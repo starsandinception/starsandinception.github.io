@@ -320,7 +320,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 25%;
   opacity: 0.9;
 }
 
@@ -331,13 +331,16 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
   background-color: #f44336;
 }
 
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
+  float: center left;
+  width: 25%;
 }
 
 /* Add padding to container elements */
@@ -358,7 +361,6 @@ button:hover {
   background-color: #474e5d;
   padding-top: 50px;
 }
-
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
